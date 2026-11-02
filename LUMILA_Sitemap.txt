@@ -1,0 +1,13 @@
+LUMILA WEBSITE SITEMAP
+
+                 HOME (index.html)
+                       |
+       +---------------+----------------+
+       |               |                |
+   ABOUT           PRODUCTS          CONTACT
+(about.html)    (products.html)   (contact.html)
+                       |
+                    ENQUIRY
+                 (enquiry.html)
+
+All pages share the same header navigation and footer.
