@@ -1,7 +1,7 @@
 # LUMILA Website — WEDE5020
 
 **Student:** SAHAD Muginga Coelho  
-**Student number:** To be added  
+**Student number:**   
 **Module:** WEDE5020 — Web Development (Introduction)  
 **Project type:** Fictional online fashion and lifestyle shop concept
 
@@ -29,7 +29,7 @@ Breakpoints used:
 
 The layout changes to fewer columns on smaller screens. Images use a maximum width of 100% so they can fit the screen.
 
-**Evidence to add:** Take screenshots from your own browser at desktop, tablet and mobile widths. Add the screenshots here or in a separate evidence folder. Do not claim screenshots were taken if they were not.
+**Evidence:** My test screenshots are in the `evidence` folder in the root of this repository.
 
 ## Part 3 — JavaScript and SEO
 JavaScript features:
@@ -52,8 +52,12 @@ SEO and accessibility:
 - Product names and prices are examples, not real stock or current offers.
 - LUMILA and the shop locations are fictional. The map embeds show general areas in Luanda, not real branches.
 - Google Maps and external image links require an internet connection.
-- The website has not been deployed. The student must upload it to the lecturer's private GitHub repository and deploy it to a free host such as GitHub Pages or Netlify.
-- The student must test the site in their own browser and add real screenshots of the results.
+- The website is hosted on GitHub Pages (see the links below).
+- Screenshots of my tests are in the `evidence` folder.
+
+## Links
+- GitHub repository: https://github.com/SAHADCOELHO/rosebank-portfolio-of-ev
+- Live website: https://sahadcoelho.github.io/rosebank-portfolio-of-ev/lumila-website/
 
 ## How to run
 1. Download and extract the project folder.
@@ -78,6 +82,8 @@ SEO and accessibility:
 - Added image lightbox.
 - Added SEO meta descriptions and accessibility labels.
 - Added two example map embeds to the Contact page.
+- Fixed the broken handbag image on the Products page.
+- Published the website on GitHub Pages.
 
 ## Suggested Git commit messages
 - `Add responsive CSS styles for all pages`
