@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ask a question about example LUMILA products.">
+  <meta name="keywords" content="LUMILA enquiry, product enquiry, Angola">
+  <meta name="author" content="SAHAD Muginga Coelho">
+  <title>LUMILA | Enquiry</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="index.html" aria-label="LUMILA home">LUMILA</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Product enquiry</h1>
+  <p>Fill in this form if you want to ask about an example product.</p>
+  <form id="enquiry-form" novalidate>
+    <label for="enquiry-name">Full name</label><input id="enquiry-name" name="name" type="text" required minlength="2">
+    <label for="enquiry-email">Email address</label><input id="enquiry-email" name="email" type="email" required>
+    <label for="enquiry-product">Product</label>
+    <select id="enquiry-product" name="product" required>
+      <option value="">Choose a product</option><option>T-shirt</option><option>Handbag</option><option>Sunglasses</option><option>Other</option>
+    </select>
+    <label for="enquiry-message">Your question</label><textarea id="enquiry-message" name="message" rows="5" required minlength="10"></textarea>
+    <button type="submit">Check enquiry</button>
+    <p class="form-message" id="enquiry-message-output" aria-live="polite"></p>
+  </form>
+  <p class="notice">This student demo checks the form in your browser. It does not send or save the enquiry.</p>
+</main>
+
+<footer>
+  <p>LUMILA — Student website project. This is a fictional business concept.</p>
+  <p><a href="contact.html">Contact page</a> | <a href="enquiry.html">Product enquiry</a></p>
+  <p>&copy; 2026 LUMILA Student Project</p>
+</footer>
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button type="button" id="close-lightbox" aria-label="Close image">Close</button>
+  <img src="" alt="" id="lightbox-image">
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>

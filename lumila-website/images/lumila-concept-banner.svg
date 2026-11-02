@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f3eee8"/>
+<circle cx="950" cy="160" r="180" fill="#d7b9a4"/>
+<path d="M0 570 Q260 430 520 570 T1200 540 V700 H0Z" fill="#263c36"/>
+<text x="90" y="280" font-family="Arial,sans-serif" font-size="96" font-weight="bold" fill="#263c36">LUMILA</text>
+<text x="95" y="350" font-family="Arial,sans-serif" font-size="34" fill="#4b5d55">Everyday style and lifestyle</text>
+</svg>

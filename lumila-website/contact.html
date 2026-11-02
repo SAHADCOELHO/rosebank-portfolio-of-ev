@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact LUMILA, a fictional student online shop concept.">
+  <meta name="keywords" content="LUMILA contact, Luanda, Angola">
+  <meta name="author" content="SAHAD Muginga Coelho">
+  <title>LUMILA | Contact</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="index.html" aria-label="LUMILA home">LUMILA</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Contact us</h1>
+  <p>LUMILA is a fictional student project. These map areas show example places in Luanda and are not real shop branches.</p>
+  <section class="map-grid">
+    <div class="map-box"><h2>Example area: Talatona</h2>
+      <iframe title="Map showing Talatona, Luanda" loading="lazy" src="https://maps.google.com/maps?q=Talatona%2C%20Luanda%2C%20Angola&output=embed"></iframe>
+      <p><a href="https://maps.google.com/?q=Talatona+Luanda+Angola" target="_blank" rel="noopener">Open Talatona map</a></p>
+    </div>
+    <div class="map-box"><h2>Example area: Maianga</h2>
+      <iframe title="Map showing Maianga, Luanda" loading="lazy" src="https://maps.google.com/maps?q=Maianga%2C%20Luanda%2C%20Angola&output=embed"></iframe>
+      <p><a href="https://maps.google.com/?q=Maianga+Luanda+Angola" target="_blank" rel="noopener">Open Maianga map</a></p>
+    </div>
+  </section>
+  <h2>Send a message</h2>
+  <form id="contact-form" novalidate>
+    <label for="contact-name">Full name</label><input id="contact-name" name="name" type="text" required minlength="2">
+    <label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" required>
+    <label for="contact-phone">Phone number (optional)</label><input id="contact-phone" name="phone" type="tel" pattern="[0-9+ ()-]{7,}">
+    <label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="5" required minlength="10"></textarea>
+    <button type="submit">Check message</button>
+    <p class="form-message" id="contact-message-output" aria-live="polite"></p>
+  </form>
+  <p class="notice">This demo validates the message only. It does not send an email or store personal information.</p>
+</main>
+
+<footer>
+  <p>LUMILA — Student website project. This is a fictional business concept.</p>
+  <p><a href="contact.html">Contact page</a> | <a href="enquiry.html">Product enquiry</a></p>
+  <p>&copy; 2026 LUMILA Student Project</p>
+</footer>
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button type="button" id="close-lightbox" aria-label="Close image">Close</button>
+  <img src="" alt="" id="lightbox-image">
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
